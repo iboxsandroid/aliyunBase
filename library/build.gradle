@@ -9,7 +9,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 1
-        versionName "1.0.1"
+        versionName "1.0.3"
     }
     
     // 避免配置时间属性访问问题
@@ -27,7 +27,7 @@ publishing {
         aar(MavenPublication) {
             groupId = 'com.github.iboxsandroid'
             artifactId = 'aliyunBase'
-            version = '1.0.2'
+            version = '1.0.3'
             
             // 指定AAR文件路径
             artifact("$projectDir/src/main/aar/aliyun-base-2.3.35.250512103048.aar")
