@@ -12,20 +12,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application>
-        <activity
-            android:name="com.dtf.face.ui.PortFaceLoadingActivity"
-            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-            android:exported="false"
-            android:resizeableActivity="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/DtfToygerLoadingAppTheme" />
-        <activity
-            android:name="com.dtf.face.ui.LandFaceLoadingActivity"
-            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-            android:exported="false"
-            android:resizeableActivity="false"
-            android:screenOrientation="landscape"
-            android:theme="@style/DtfToygerLoadingAppTheme" />
+    
     </application>
 
 </manifest>
